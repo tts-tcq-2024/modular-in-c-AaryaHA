@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <assert.h>
 #include "colour_code.h"
 
 int main() {
