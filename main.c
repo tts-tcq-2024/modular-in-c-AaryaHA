@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <assert.h>
-#include "colour_code.h"
+#include "color.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -8,6 +6,8 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
+
+    PrintColorCodingManual();
 
     return 0;
 }
