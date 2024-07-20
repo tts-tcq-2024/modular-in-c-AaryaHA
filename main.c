@@ -1,3 +1,5 @@
+#include "colour_code.h"
+
 int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
