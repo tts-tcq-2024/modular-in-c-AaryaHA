@@ -22,4 +22,5 @@ extern void ColorPairToString(const ColorPair* colorPair, char* buffer) ;
 extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 
+
 #endif /* COLOR_CODE_H */
