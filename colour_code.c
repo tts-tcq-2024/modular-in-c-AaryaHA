@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "color_code.h"
+#include "colour_code.h"
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
